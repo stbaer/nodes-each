@@ -1,0 +1,34 @@
+{
+  "name": "nodes-each",
+  "version": "1.0.0",
+  "description": "Loop through nodelist / the result of querySelectorAll",
+  "main": "index.js",
+  "license": "MIT",
+  "author": {
+    "name": "Steffen Bär",
+    "email": "stbaer.pub@gmail.com",
+    "url": "https://github.com/stbaer"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "foreach,",
+    "each,",
+    "loop,",
+    "nodes,",
+    "nodelist,",
+    "querySelectorAll,",
+    "dom"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/stbaer/nodes-each.git"
+  },
+  "homepage": "https://github.com/stbaer/nodes-each",
+  "bugs": {
+    "url": "https://github.com/stbaer/nodes-each/issues"
+  }
+}
