@@ -1,5 +1,4 @@
 /**
- *
  * foreach that can be used with the result of querySelectorAll
  * @example
  *  nodesEach(myNodeList, function (i, val) {
@@ -18,3 +17,5 @@ var nodesEach = function(array, cb, scope){
       cb.call(scope, i, array[i]);
   }
 };
+
+module.exports = nodesEach;
