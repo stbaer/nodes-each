@@ -2,6 +2,10 @@
 
 > Loop through a NodeList (e.g. the result of querySelectorAll).
 
+## Install
+
+`npm i --save nodes-each`
+
 ## nodesEach (array, callback[, scope])
 
 ```
