@@ -1,8 +1,6 @@
 # nodes-each
 
-> Loop through a NodeList
-
-Loop through a NodeList (e.g. the result of querySelectorAll).
+> Loop through a NodeList (e.g. the result of querySelectorAll).
 
 ## nodesEach (array, callback[, scope])
 
