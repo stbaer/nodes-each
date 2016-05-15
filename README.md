@@ -1,22 +1,18 @@
 # nodes-each
 
-[![unstable](http://badges.github.io/stability-badges/dist/unstable.svg)](http://github.com/badges/stability-badges)
+> Loop through a NodeList
 
-Loop through nodelist / the result of querySelectorAll.
-
-## Usage
-
-[![NPM](https://nodei.co/npm/nodes-each.png)](https://www.npmjs.com/package/nodes-each)
+Loop through a NodeList (e.g. the result of querySelectorAll).
 
 ## nodesEach (array, callback[, scope])
 
-```js
+```
 var nodesEach = require('nodes-each');
 var nodes = document.querySelectorAll('.someSelector')
 
-nodesEach(nodes, function (i, val) {
-      console.log('index: 'i, 'value': val);
-   });
+nodesEach(nodes, function (i, element) {
+      console.log('index: 'i, 'value': element);
+   }, this);
 ```
 
 ## License
