@@ -1,21 +1,21 @@
 /**
- * foreach that can be used with the result of querySelectorAll
- * @example
- *  nodesEach(myNodeList, function (i, val) {
- *      console.log('index: 'i, 'value': val);
- *   });
+ * nodesEach - loop through a NodeList
  *
- * @param array
- * @param {callback} cb
- * @param [scope]
+ * @example
+ *  nodesEach(myNodeList, function (idx, el) {
+ *      console.log('index: ' + idx, 'element: ' + el);
+ *   }, this);
+ *
+ * @param {NodeList} nodes - the NodeList
+ * @param {callback} cb   -
+ * @param {scope} [scope] - optional
  */
-var nodesEach = function(array, cb, scope){
-  var i = 0;
-  var n = array.length;
+var nodesEach = function(nodes, cb, scope){
 
-  for (i; i < n; i++) {
-      cb.call(scope, i, array[i]);
+  for (var i = 0, n = nodes.length; i < n; i++) {
+      cb.call(scope, i, nodes[i]);
   }
+
 };
 
 module.exports = nodesEach;

@@ -6,14 +6,13 @@
 
 `npm i --save nodes-each`
 
-## nodesEach (array, callback[, scope])
+## nodesEach (NodeList, callback[, scope])
 
 ```
 var nodesEach = require('nodes-each');
-var nodes = document.querySelectorAll('.someSelector')
 
-nodesEach(nodes, function (i, element) {
-      console.log('index: 'i, 'value': element);
+nodesEach( document.querySelectorAll('.someSelector'), function (idx, el) {
+      console.log('index: ' + idx, 'element: ' + el);
    }, this);
 ```
 

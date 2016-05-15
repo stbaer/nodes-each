@@ -1,6 +1,6 @@
 {
   "name": "nodes-each",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Loop through nodelist / the result of querySelectorAll",
   "main": "index.js",
   "license": "MIT",
